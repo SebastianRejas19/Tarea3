@@ -1,0 +1,16 @@
+<table>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Tipo</th>
+      <th>Fecha_Creacion</th>
+      <th>Fecha_Modificacion</th>
+    </tr>
+    <tr *ngFor="let item of menu"> 
+      <td>{{item.ID}}</td>
+      <td>{{item.Nombre}}</td>
+      <td>{{item.Tipo}}</td>
+      <td>{{item.Fecha_Creacion}}</td>
+      <td>{{item.Fecha_Modificacion}}</td>
+    </tr>
+  </table>
